@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "l-1",
+    "slug": "apple-macbook-pro-16-m3-pro",
+    "name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "category": "laptops",
+    "tagline": "Creator-grade performance with a bright mini‑LED display and all‑day battery life.",
+    "price": 3499,
+    "originalPrice": 3799,
+    "rating": 4.8,
+    "reviewCount": 842,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/Apple MacBook Pro 16-inch (M3 Pro).png",
+        "alt": "Apple MacBook Pro 16-inch (M3 Pro)"
+      }
+    ],
+    "highlights": [
+      "Liquid Retina XDR display",
+      "M3 Pro performance",
+      "Quiet thermals",
+      "Pro ports and charging"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Apple M3 Pro"
+      },
+      {
+        "label": "RAM",
+        "value": "18GB unified"
+      },
+      {
+        "label": "Storage",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "16.2” mini‑LED"
+      },
+      {
+        "label": "Battery",
+        "value": "Up to 22 hours"
+      }
+    ]
+  },
+  {
+    "id": "l-2",
+    "slug": "dell-xps-15-9530",
+    "name": "Dell XPS 15 9530",
+    "category": "laptops",
+    "tagline": "Premium 15” laptop with a sharp OLED option and strong performance for work and play.",
+    "price": 2299,
+    "originalPrice": 2599,
+    "rating": 4.7,
+    "reviewCount": 612,
+    "brand": "Dell",
+    "images": [
+      {
+        "src": "/product-images/Dell XPS 15 9530.png",
+        "alt": "Dell XPS 15 9530"
+      }
+    ],
+    "highlights": [
+      "15.6” edge-to-edge display",
+      "CNC aluminum chassis",
+      "Creator-ready thermals",
+      "Fast SSD storage"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core i7"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4050 (Laptop)"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Storage",
+        "value": "1TB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "15.6” OLED"
+      }
+    ]
+  },
+  {
+    "id": "l-3",
+    "slug": "lenovo-thinkpad-x1-carbon-gen-12",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "category": "laptops",
+    "tagline": "Business ultrabook with legendary keyboard feel and a lightweight carbon build.",
+    "price": 1999,
+    "rating": 4.6,
+    "reviewCount": 504,
+    "brand": "Lenovo",
+    "images": [
+      {
+        "src": "/product-images/Lenovo ThinkPad X1 Carbon Gen 12.png",
+        "alt": "Lenovo ThinkPad X1 Carbon Gen 12"
+      }
+    ],
+    "highlights": [
+      "Ultra-light chassis",
+      "All-day productivity",
+      "Premium security",
+      "Comfort-first keyboard"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core Ultra 7"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Storage",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "14” WUXGA"
+      },
+      {
+        "label": "Weight",
+        "value": "≈1.1kg"
+      }
+    ]
+  },
+  {
+    "id": "l-4",
+    "slug": "hp-spectre-x360-14",
+    "name": "HP Spectre x360 14",
+    "category": "laptops",
+    "tagline": "Convertible 2‑in‑1 with a vivid OLED display and premium build quality.",
+    "price": 1799,
+    "rating": 4.6,
+    "reviewCount": 391,
+    "brand": "HP",
+    "images": [
+      {
+        "src": "/product-images/hp-spectre-x360-14.png",
+        "alt": "HP Spectre x360 14"
+      }
+    ],
+    "highlights": [
+      "2‑in‑1 hinge",
+      "OLED display option",
+      "Premium audio",
+      "Compact and portable"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core Ultra 5"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Storage",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "14” OLED"
+      },
+      {
+        "label": "Touch",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "l-5",
+    "slug": "asus-zenbook-14-oled",
+    "name": "ASUS Zenbook 14 OLED",
+    "category": "laptops",
+    "tagline": "Slim OLED laptop tuned for speed, color accuracy, and everyday carry.",
+    "price": 1399,
+    "originalPrice": 1599,
+    "rating": 4.7,
+    "reviewCount": 463,
+    "brand": "ASUS",
+    "images": [
+      {
+        "src": "/product-images/ASUS Zenbook 14 OLED.png",
+        "alt": "ASUS Zenbook 14 OLED"
+      }
+    ],
+    "highlights": [
+      "OLED panel",
+      "Fast wake + resume",
+      "Lightweight build",
+      "USB‑C charging"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core Ultra 7"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Storage",
+        "value": "1TB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "14” OLED"
+      },
+      {
+        "label": "Weight",
+        "value": "≈1.2kg"
+      }
+    ]
+  },
+  {
+    "id": "l-6",
+    "slug": "msi-stealth-16-studio",
+    "name": "MSI Stealth 16 Studio",
+    "category": "laptops",
+    "tagline": "High-performance RTX laptop built for gaming and creative workloads.",
+    "price": 2599,
+    "rating": 4.5,
+    "reviewCount": 278,
+    "brand": "MSI",
+    "images": [
+      {
+        "src": "/product-images/msi-stealth-16-studio.png",
+        "alt": "MSI Stealth 16 Studio"
+      }
+    ],
+    "highlights": [
+      "RTX graphics",
+      "High refresh display",
+      "Creator + gaming tuned",
+      "Advanced cooling"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core i9"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4070 (Laptop)"
+      },
+      {
+        "label": "RAM",
+        "value": "32GB"
+      },
+      {
+        "label": "Storage",
+        "value": "1TB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "16” 240Hz"
+      }
+    ]
+  },
+  {
+    "id": "l-7",
+    "slug": "acer-swift-x-14",
+    "name": "Acer Swift X 14",
+    "category": "laptops",
+    "tagline": "Portable performance laptop with discrete graphics for editing and multitasking.",
+    "price": 1299,
+    "rating": 4.5,
+    "reviewCount": 334,
+    "brand": "Acer",
+    "images": [
+      {
+        "src": "/product-images/acer-swift-x-14.png",
+        "alt": "Acer Swift X 14"
+      }
+    ],
+    "highlights": [
+      "Portable chassis",
+      "Discrete GPU option",
+      "Fast charging",
+      "Color-accurate display"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "AMD Ryzen 7"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4050 (Laptop)"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Storage",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "14” IPS"
+      }
+    ]
+  },
+  {
+    "id": "d-1",
+    "slug": "hp-omen-45l",
+    "name": "HP OMEN 45L",
+    "category": "desktops",
+    "tagline": "High-performance gaming desktop built for 4K and creative workloads.",
+    "price": 3299,
+    "rating": 4.7,
+    "reviewCount": 204,
+    "brand": "HP",
+    "images": [
+      {
+        "src": "/product-images/hp-omen-45l.png",
+        "alt": "HP OMEN 45L"
+      }
+    ],
+    "highlights": [
+      "RTX-class graphics",
+      "Tuned airflow",
+      "Tool-less access",
+      "Upgrade friendly"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "AMD Ryzen 9"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4080"
+      },
+      {
+        "label": "RAM",
+        "value": "64GB DDR5"
+      },
+      {
+        "label": "Storage",
+        "value": "2TB NVMe"
+      },
+      {
+        "label": "Cooling",
+        "value": "Liquid"
+      }
+    ]
+  },
+  {
+    "id": "d-2",
+    "slug": "dell-xps-desktop-8960",
+    "name": "Dell XPS Desktop 8960",
+    "category": "desktops",
+    "tagline": "Clean, powerful tower for productivity, creation, and quiet performance.",
+    "price": 1899,
+    "originalPrice": 2199,
+    "rating": 4.6,
+    "reviewCount": 188,
+    "brand": "Dell",
+    "images": [
+      {
+        "src": "/product-images/Dell XPS Desktop 8960.png",
+        "alt": "Dell XPS Desktop 8960"
+      }
+    ],
+    "highlights": [
+      "Quiet acoustics",
+      "Creator-ready performance",
+      "Modern I/O",
+      "Minimal tower design"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core i7"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4060"
+      },
+      {
+        "label": "RAM",
+        "value": "32GB"
+      },
+      {
+        "label": "Storage",
+        "value": "1TB NVMe"
+      },
+      {
+        "label": "Wi‑Fi",
+        "value": "Wi‑Fi 6E"
+      }
+    ]
+  },
+  {
+    "id": "d-3",
+    "slug": "lenovo-legion-tower-7i",
+    "name": "Lenovo Legion Tower 7i",
+    "category": "desktops",
+    "tagline": "Gaming tower with high airflow and headroom for serious frame rates.",
+    "price": 2799,
+    "rating": 4.7,
+    "reviewCount": 267,
+    "brand": "Lenovo",
+    "images": [
+      {
+        "src": "/product-images/lenovo-legion-tower-7i.png",
+        "alt": "Lenovo Legion Tower 7i"
+      }
+    ],
+    "highlights": [
+      "High-airflow chassis",
+      "RTX graphics",
+      "Easy upgrades",
+      "RGB + tempered glass"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core i9"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4070 Ti"
+      },
+      {
+        "label": "RAM",
+        "value": "32GB DDR5"
+      },
+      {
+        "label": "Storage",
+        "value": "2TB NVMe"
+      },
+      {
+        "label": "PSU",
+        "value": "850W"
+      }
+    ]
+  },
+  {
+    "id": "d-4",
+    "slug": "asus-rog-g22ch",
+    "name": "ASUS ROG G22CH",
+    "category": "desktops",
+    "tagline": "Compact gaming desktop with strong thermals and a small footprint.",
+    "price": 2399,
+    "rating": 4.6,
+    "reviewCount": 214,
+    "brand": "ASUS",
+    "images": [
+      {
+        "src": "/product-images/asus-rog-g22ch.png",
+        "alt": "ASUS ROG G22CH"
+      }
+    ],
+    "highlights": [
+      "Compact chassis",
+      "RTX graphics",
+      "Quiet under load",
+      "Fast storage"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core i7"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4070"
+      },
+      {
+        "label": "RAM",
+        "value": "32GB"
+      },
+      {
+        "label": "Storage",
+        "value": "1TB NVMe"
+      },
+      {
+        "label": "Cooling",
+        "value": "Optimized airflow"
+      }
+    ]
+  },
+  {
+    "id": "d-5",
+    "slug": "apple-imac-24-m3",
+    "name": "Apple iMac 24-inch (M3)",
+    "category": "desktops",
+    "tagline": "All‑in‑one desktop with a bright 4.5K display for home and studio work.",
+    "price": 1599,
+    "rating": 4.7,
+    "reviewCount": 533,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/apple-imac-24-m3.png",
+        "alt": "Apple iMac 24-inch (M3)"
+      }
+    ],
+    "highlights": [
+      "4.5K Retina display",
+      "M3 performance",
+      "Clean all-in-one setup",
+      "Great speakers + mic"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Apple M3"
+      },
+      {
+        "label": "RAM",
+        "value": "8GB"
+      },
+      {
+        "label": "Storage",
+        "value": "256GB SSD"
+      },
+      {
+        "label": "Display",
+        "value": "24” 4.5K"
+      },
+      {
+        "label": "Camera",
+        "value": "1080p"
+      }
+    ]
+  },
+  {
+    "id": "d-6",
+    "slug": "acer-predator-orion-5000",
+    "name": "Acer Predator Orion 5000",
+    "category": "desktops",
+    "tagline": "Performance-first gaming desktop with strong cooling and upgrade paths.",
+    "price": 2499,
+    "rating": 4.5,
+    "reviewCount": 173,
+    "brand": "Acer",
+    "images": [
+      {
+        "src": "/product-images/acer-predator-orion-5000.png",
+        "alt": "Acer Predator Orion 5000"
+      }
+    ],
+    "highlights": [
+      "High airflow",
+      "Strong GPU options",
+      "RGB lighting",
+      "Easy access panels"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core i7"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4070"
+      },
+      {
+        "label": "RAM",
+        "value": "32GB"
+      },
+      {
+        "label": "Storage",
+        "value": "1TB NVMe"
+      },
+      {
+        "label": "Cooling",
+        "value": "Multiple fans"
+      }
+    ]
+  },
+  {
+    "id": "d-7",
+    "slug": "msi-aegis-rs",
+    "name": "MSI Aegis RS",
+    "category": "desktops",
+    "tagline": "High-end desktop for gaming and streaming with strong thermals.",
+    "price": 2899,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "brand": "MSI",
+    "images": [
+      {
+        "src": "/product-images/msi-aegis-rs.png",
+        "alt": "MSI Aegis RS"
+      }
+    ],
+    "highlights": [
+      "Streaming-ready",
+      "RTX graphics",
+      "Solid cooling",
+      "Plenty of ports"
+    ],
+    "specs": [
+      {
+        "label": "CPU",
+        "value": "Intel Core i9"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4080"
+      },
+      {
+        "label": "RAM",
+        "value": "32GB DDR5"
+      },
+      {
+        "label": "Storage",
+        "value": "2TB NVMe"
+      },
+      {
+        "label": "Networking",
+        "value": "2.5GbE"
+      }
+    ]
+  },
+  {
+    "id": "a-1",
+    "slug": "apple-magic-keyboard",
+    "name": "Apple Magic Keyboard",
+    "category": "accessories",
+    "tagline": "Low-profile wireless keyboard with a clean layout and long battery life.",
+    "price": 129,
+    "rating": 4.6,
+    "reviewCount": 2190,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/apple-magic-keyboard.png",
+        "alt": "Apple Magic Keyboard"
+      }
+    ],
+    "highlights": [
+      "Wireless + rechargeable",
+      "Stable scissor switches",
+      "Compact layout",
+      "Instant pairing"
+    ],
+    "specs": [
+      {
+        "label": "Connection",
+        "value": "Bluetooth"
+      },
+      {
+        "label": "Charging",
+        "value": "Lightning"
+      },
+      {
+        "label": "Layout",
+        "value": "Full-size"
+      },
+      {
+        "label": "Battery",
+        "value": "≈1 month"
+      }
+    ]
+  },
+  {
+    "id": "a-2",
+    "slug": "apple-magic-mouse",
+    "name": "Apple Magic Mouse",
+    "category": "accessories",
+    "tagline": "Wireless multi‑touch mouse with smooth scrolling and gesture controls.",
+    "price": 79,
+    "rating": 4.4,
+    "reviewCount": 1630,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/apple-magic-mouse.png",
+        "alt": "Apple Magic Mouse"
+      }
+    ],
+    "highlights": [
+      "Multi‑touch surface",
+      "Wireless",
+      "Gesture scrolling",
+      "Clean minimalist look"
+    ],
+    "specs": [
+      {
+        "label": "Connection",
+        "value": "Bluetooth"
+      },
+      {
+        "label": "Charging",
+        "value": "Lightning"
+      },
+      {
+        "label": "Gestures",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "a-3",
+    "slug": "samsung-t7-shield-ssd-2tb",
+    "name": "Samsung T7 Shield SSD (2TB)",
+    "category": "accessories",
+    "tagline": "Rugged portable SSD with fast transfers and travel-ready durability.",
+    "price": 199,
+    "rating": 4.8,
+    "reviewCount": 4211,
+    "brand": "Samsung",
+    "images": [
+      {
+        "src": "/product-images/Samsung T7 Shield SSD (2TB).png",
+        "alt": "Samsung T7 Shield SSD (2TB)"
+      }
+    ],
+    "highlights": [
+      "USB‑C fast transfers",
+      "Rugged shell",
+      "Pocket size",
+      "Works with Mac/PC"
+    ],
+    "specs": [
+      {
+        "label": "Capacity",
+        "value": "2TB"
+      },
+      {
+        "label": "Interface",
+        "value": "USB‑C"
+      },
+      {
+        "label": "Use",
+        "value": "Portable storage"
+      }
+    ]
+  },
+  {
+    "id": "a-4",
+    "slug": "dell-ultrasharp-27-u2723qe",
+    "name": "Dell UltraSharp 27 (U2723QE)",
+    "category": "accessories",
+    "tagline": "Crisp 4K monitor with excellent color and a clean desk-friendly design.",
+    "price": 649,
+    "rating": 4.7,
+    "reviewCount": 944,
+    "brand": "Dell",
+    "images": [
+      {
+        "src": "/product-images/dell-ultrasharp-27-u2723qe.png",
+        "alt": "Dell UltraSharp 27 (U2723QE)"
+      }
+    ],
+    "highlights": [
+      "4K clarity",
+      "USB‑C hub",
+      "Great color accuracy",
+      "Comfortable stand"
+    ],
+    "specs": [
+      {
+        "label": "Resolution",
+        "value": "4K"
+      },
+      {
+        "label": "Size",
+        "value": "27”"
+      },
+      {
+        "label": "USB‑C",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "a-5",
+    "slug": "lenovo-thinkpad-usb-c-dock",
+    "name": "Lenovo ThinkPad USB‑C Dock",
+    "category": "accessories",
+    "tagline": "One‑cable docking for charging, displays, and peripherals.",
+    "price": 229,
+    "rating": 4.5,
+    "reviewCount": 522,
+    "brand": "Lenovo",
+    "images": [
+      {
+        "src": "/product-images/lenovo-thinkpad-usb-c-dock.png",
+        "alt": "Lenovo ThinkPad USB‑C Dock"
+      }
+    ],
+    "highlights": [
+      "Single-cable setup",
+      "Multiple display support",
+      "Reliable charging",
+      "Desk tidy"
+    ],
+    "specs": [
+      {
+        "label": "Connection",
+        "value": "USB‑C"
+      },
+      {
+        "label": "Ports",
+        "value": "HDMI/DP/USB/Ethernet"
+      }
+    ]
+  },
+  {
+    "id": "a-6",
+    "slug": "asus-rog-strix-scope-ii",
+    "name": "ASUS ROG Strix Scope II",
+    "category": "accessories",
+    "tagline": "Mechanical keyboard with gaming-focused layout and premium feel.",
+    "price": 149,
+    "rating": 4.6,
+    "reviewCount": 618,
+    "brand": "ASUS",
+    "images": [
+      {
+        "src": "/product-images/asus-rog-strix-scope-ii.png",
+        "alt": "ASUS ROG Strix Scope II"
+      }
+    ],
+    "highlights": [
+      "Mechanical switches",
+      "RGB lighting",
+      "Solid build",
+      "Gaming layout"
+    ],
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Mechanical"
+      },
+      {
+        "label": "Lighting",
+        "value": "RGB"
+      },
+      {
+        "label": "Connection",
+        "value": "USB"
+      }
+    ]
+  },
+  {
+    "id": "a-7",
+    "slug": "hp-hyperx-cloud-ii",
+    "name": "HP HyperX Cloud II",
+    "category": "accessories",
+    "tagline": "Comfortable headset with clear audio and an easy plug‑and‑play setup.",
+    "price": 99,
+    "rating": 4.7,
+    "reviewCount": 3880,
+    "brand": "HP",
+    "images": [
+      {
+        "src": "/product-images/hp-hyperx-cloud-ii.png",
+        "alt": "HP HyperX Cloud II"
+      }
+    ],
+    "highlights": [
+      "Comfort-first fit",
+      "Clear mic",
+      "Immersive audio",
+      "Durable frame"
+    ],
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Over‑ear"
+      },
+      {
+        "label": "Mic",
+        "value": "Detachable"
+      },
+      {
+        "label": "Connection",
+        "value": "USB / 3.5mm"
+      }
+    ]
+  },
+  {
+    "id": "g-1",
+    "slug": "apple-airpods-pro-2",
+    "name": "Apple AirPods Pro (2nd gen)",
+    "category": "gadgets",
+    "tagline": "Noise cancelling earbuds with transparency mode and spatial audio.",
+    "price": 199,
+    "rating": 4.5,
+    "reviewCount": 876,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/apple-airpods-pro-2.png",
+        "alt": "Apple AirPods Pro (2nd gen)"
+      }
+    ],
+    "highlights": [
+      "Adaptive ANC",
+      "Transparency mode",
+      "Spatial audio",
+      "USB‑C charging"
+    ],
+    "specs": [
+      {
+        "label": "ANC",
+        "value": "Yes"
+      },
+      {
+        "label": "Charging",
+        "value": "USB‑C + wireless"
+      },
+      {
+        "label": "Audio",
+        "value": "Spatial"
+      }
+    ]
+  },
+  {
+    "id": "g-2",
+    "slug": "samsung-galaxy-buds2-pro",
+    "name": "Samsung Galaxy Buds2 Pro",
+    "category": "gadgets",
+    "tagline": "Comfortable earbuds with rich sound and reliable active noise cancellation.",
+    "price": 169,
+    "rating": 4.6,
+    "reviewCount": 1204,
+    "brand": "Samsung",
+    "images": [
+      {
+        "src": "/product-images/samsung-galaxy-buds2-pro.png",
+        "alt": "Samsung Galaxy Buds2 Pro"
+      }
+    ],
+    "highlights": [
+      "ANC",
+      "Great mic quality",
+      "Comfort fit",
+      "Pocket charging case"
+    ],
+    "specs": [
+      {
+        "label": "ANC",
+        "value": "Yes"
+      },
+      {
+        "label": "Water resistance",
+        "value": "IPX7"
+      },
+      {
+        "label": "Charging",
+        "value": "USB‑C"
+      }
+    ]
+  },
+  {
+    "id": "g-3",
+    "slug": "apple-watch-series-9",
+    "name": "Apple Watch Series 9",
+    "category": "gadgets",
+    "tagline": "Smartwatch for fitness, health insights, and fast notifications.",
+    "price": 399,
+    "rating": 4.7,
+    "reviewCount": 2210,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/apple-watch-series-9.png",
+        "alt": "Apple Watch Series 9"
+      }
+    ],
+    "highlights": [
+      "Always-on display",
+      "Health tracking",
+      "Fast notifications",
+      "Workout modes"
+    ],
+    "specs": [
+      {
+        "label": "Connectivity",
+        "value": "GPS"
+      },
+      {
+        "label": "Battery",
+        "value": "Up to 18 hours"
+      },
+      {
+        "label": "Sensors",
+        "value": "Heart + SpO2"
+      }
+    ]
+  },
+  {
+    "id": "g-4",
+    "slug": "samsung-galaxy-watch6",
+    "name": "Samsung Galaxy Watch6",
+    "category": "gadgets",
+    "tagline": "Smartwatch with a bright display, fitness tracking, and smooth day-to-day use.",
+    "price": 299,
+    "rating": 4.6,
+    "reviewCount": 1543,
+    "brand": "Samsung",
+    "images": [
+      {
+        "src": "/product-images/samsung-galaxy-watch6.png",
+        "alt": "Samsung Galaxy Watch6"
+      }
+    ],
+    "highlights": [
+      "Fitness tracking",
+      "Bright display",
+      "Sleep insights",
+      "Daily activity rings"
+    ],
+    "specs": [
+      {
+        "label": "Connectivity",
+        "value": "GPS"
+      },
+      {
+        "label": "Battery",
+        "value": "Up to 40 hours"
+      },
+      {
+        "label": "Water resistance",
+        "value": "5ATM"
+      }
+    ]
+  },
+  {
+    "id": "g-5",
+    "slug": "apple-ipad-air-m2",
+    "name": "Apple iPad Air (M2)",
+    "category": "gadgets",
+    "tagline": "Lightweight tablet for notes, reading, and creative work with a sharp display.",
+    "price": 599,
+    "rating": 4.7,
+    "reviewCount": 1102,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/apple-ipad-air-m2.png",
+        "alt": "Apple iPad Air (M2)"
+      }
+    ],
+    "highlights": [
+      "M-series performance",
+      "Great for notes",
+      "Bright display",
+      "USB‑C"
+    ],
+    "specs": [
+      {
+        "label": "Chip",
+        "value": "Apple M2"
+      },
+      {
+        "label": "Display",
+        "value": "10.9”"
+      },
+      {
+        "label": "Charging",
+        "value": "USB‑C"
+      }
+    ]
+  },
+  {
+    "id": "g-6",
+    "slug": "samsung-galaxy-tab-s9",
+    "name": "Samsung Galaxy Tab S9",
+    "category": "gadgets",
+    "tagline": "Premium Android tablet with a vivid display and smooth multitasking.",
+    "price": 799,
+    "rating": 4.6,
+    "reviewCount": 903,
+    "brand": "Samsung",
+    "images": [
+      {
+        "src": "/product-images/samsung-galaxy-tab-s9.png",
+        "alt": "Samsung Galaxy Tab S9"
+      }
+    ],
+    "highlights": [
+      "Vivid display",
+      "Multitasking",
+      "S Pen support",
+      "Fast charging"
+    ],
+    "specs": [
+      {
+        "label": "Display",
+        "value": "11” AMOLED"
+      },
+      {
+        "label": "Charging",
+        "value": "USB‑C"
+      },
+      {
+        "label": "Pen",
+        "value": "Supported"
+      }
+    ]
+  },
+  {
+    "id": "g-7",
+    "slug": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro",
+    "category": "gadgets",
+    "tagline": "Pro camera system with a fast chip and a premium titanium feel.",
+    "price": 999,
+    "rating": 4.7,
+    "reviewCount": 2911,
+    "brand": "Apple",
+    "images": [
+      {
+        "src": "/product-images/apple-iphone-15-pro.png",
+        "alt": "Apple iPhone 15 Pro"
+      }
+    ],
+    "highlights": [
+      "Pro camera",
+      "Fast performance",
+      "USB‑C",
+      "Premium build"
+    ],
+    "specs": [
+      {
+        "label": "Chip",
+        "value": "A17 Pro"
+      },
+      {
+        "label": "Camera",
+        "value": "Pro system"
+      },
+      {
+        "label": "Charging",
+        "value": "USB‑C"
+      }
+    ]
+  }
+]

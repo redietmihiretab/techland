@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Cursor / tooling artifacts:
+    ".cursor/**",
+    "**/terminals/**",
+    "**/agent-transcripts/**",
   ]),
 ]);
 
