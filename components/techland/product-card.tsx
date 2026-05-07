@@ -90,7 +90,7 @@ export function ProductCard({
       <div className="flex flex-1 flex-col gap-2 p-4">
         {/* Name */}
         <Link href={`/products/${product.slug}`}>
-          <div className="line-clamp-2 text-base font-bold leading-snug text-foreground hover:text-[color:var(--tech-cta)]">
+          <div className="line-clamp-2 text-[14px] font-bold leading-snug text-foreground hover:text-[color:var(--tech-cta)]">
             {product.name}
           </div>
         </Link>

@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ArrowRightIcon } from "@heroicons/react/24/outline"
 import { MonitorSmartphone, Cpu, Headphones } from "lucide-react"
 import { Reveal } from "@/components/techland/motion"
+import { PromoBanner } from "./promo-banner"
 
 const cards = [
   {
@@ -36,6 +37,13 @@ export function CategoryCards() {
   return (
     <section className="border-t border-border bg-background">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
+        <PromoBanner 
+          className="mb-10"
+          title={<>UP TO <span className="text-orange-950">40% OFF</span> ON ALL ACCESSORIES</>}
+          description="Limited time offer. Elevate your setup with premium gear today."
+          href="/products?category=accessories"
+          backgroundImage="/product/images/man.png"
+        />
         <Reveal className="flex items-end justify-between gap-4">
           <div>
             <div className="text-sm font-medium text-[color:var(--tech-cta)]">

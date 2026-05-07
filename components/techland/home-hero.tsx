@@ -1,9 +1,10 @@
-﻿"use client"
+"use client"
 
 import * as React from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Reveal } from "@/components/techland/motion"
+import { PromoBanner } from "./promo-banner"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { ProductCard } from "@/components/techland/product-card"
 import { products } from "@/lib/products"
@@ -44,11 +45,11 @@ export function HomeHero() {
 
         {/* Carousel */}
         <Reveal delay={0.1}>
-          <div className="relative group w-full lg:px-[100px]">
+          <div className="relative group w-full lg:px-[50px]">
             {/* Arrows */}
             <button
               onClick={() => scroll("prev")}
-              className="absolute -left-6 top-[40%] z-10 hidden -translate-y-1/2 items-center justify-center text-[color:var(--tech-cta)] transition-colors hover:text-[color:var(--tech-cta)]/70 sm:-left-10 lg:-left-14 lg:flex"
+              className="absolute left-0 top-[55px] z-10 hidden -translate-y-1/2 items-center justify-center text-[color:var(--tech-cta)] transition-colors hover:text-[color:var(--tech-cta)]/70 lg:flex"
               aria-label="Previous categories"
             >
               <ChevronLeft className="h-8 w-8 stroke-[1.5]" />
@@ -56,7 +57,7 @@ export function HomeHero() {
             
             <button
               onClick={() => scroll("next")}
-              className="absolute -right-6 top-[40%] z-10 hidden -translate-y-1/2 items-center justify-center text-[color:var(--tech-cta)] transition-colors hover:text-[color:var(--tech-cta)]/70 sm:-right-10 lg:-right-14 lg:flex"
+              className="absolute right-0 top-[55px] z-10 hidden -translate-y-1/2 items-center justify-center text-[color:var(--tech-cta)] transition-colors hover:text-[color:var(--tech-cta)]/70 lg:flex"
               aria-label="Next categories"
             >
               <ChevronRight className="h-8 w-8 stroke-[1.5]" />
@@ -84,7 +85,7 @@ export function HomeHero() {
                       sizes="110px"
                     />
                   </div>
-                  <span className="text-base font-medium text-foreground">{cat.name}</span>
+                  <span className="text-[13px] font-normal text-foreground">{cat.name}</span>
                 </Link>
               ))}
             </div>
@@ -125,19 +126,15 @@ export function HomeHero() {
           </div>
         </div>
 
-        {/* Bottom: Hero Text */}
-        <div className="mt-10 text-center">
-          <Reveal delay={0.2}>
-            <h1 className="text-[45px] font-extrabold leading-tight tracking-tight text-foreground">
-              Time to <span className="text-[color:var(--tech-cta)]">Upgrade</span> Your Tech!
-            </h1>
-          </Reveal>
-          <Reveal delay={0.3}>
-            <p className="mx-auto mt-6 max-w-2xl text-[14px] font-medium text-muted-foreground">
-              Get the best deals on premium electronics <br className="hidden sm:block" />
-              delivered as soon as today
-            </p>
-          </Reveal>
+        {/* Bottom: Hero Banner */}
+        <div className="mt-16">
+          <PromoBanner 
+            title={<>Time to <span className="text-orange-950">Upgrade</span> Your Tech!</>}
+            description="Get the best deals on premium electronics delivered as soon as today."
+            href="/products"
+            backgroundImage="/product/images/iabtop.png"
+            buttonText="Upgrade Now"
+          />
         </div>
 
       </div>

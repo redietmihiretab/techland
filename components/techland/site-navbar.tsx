@@ -52,12 +52,12 @@ export function SiteNavbar() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 bg-background pt-1.5 transition-shadow duration-200",
+        "sticky top-0 z-50 bg-background/10 backdrop-blur-md pt-1.5 transition-shadow duration-200",
         scrolled && "shadow-md pt-0"
       )}
     >
       {/* ── Tier 1: Logo + Search + Cart ── */}
-      <div className="border-b border-border bg-background">
+      <div className="border-b border-border bg-transparent">
         <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6">
           {/* Logo */}
           <Link
@@ -108,7 +108,7 @@ export function SiteNavbar() {
       </div>
 
       {/* ── Tier 2: Category pill nav (Centered) ── */}
-      <div className="border-b border-border bg-background">
+      <div className="border-b border-border bg-transparent">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <nav className="flex h-12 items-center justify-center gap-2 overflow-x-auto" aria-label="Product categories">
             {categories.map((item) => {
