@@ -183,7 +183,7 @@ export function SiteNavbar() {
             })}
             <Link
               href="/products?onSale=true"
-              className="whitespace-nowrap rounded-full bg-[color:var(--tech-cta)]/10 px-5 py-2 text-sm font-bold text-[color:var(--tech-cta)] transition-colors hover:bg-[color:var(--tech-cta)]/20"
+              className="hidden sm:inline-flex whitespace-nowrap rounded-full bg-[color:var(--tech-cta)]/10 px-5 py-2 text-sm font-bold text-[color:var(--tech-cta)] transition-colors hover:bg-[color:var(--tech-cta)]/20"
             >
               🔥 Today's Deals
             </Link>
