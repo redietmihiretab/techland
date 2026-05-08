@@ -23,8 +23,8 @@ export function SiteNavbar() {
   const { count } = useCart()
   const [searchQuery, setSearchQuery] = React.useState("")
   const [scrolled, setScrolled] = React.useState(false)
-  const [mobileSearchOpen, setMobileSearchOpen] = React.useState(false)
-  const mobileInputRef = React.useRef<HTMLInputElement>(null)
+  const [mobileExpanded, setMobileExpanded] = React.useState(false)
+  const inputRef = React.useRef<HTMLInputElement>(null)
 
   React.useEffect(() => {
     const update = () => {
@@ -45,17 +45,28 @@ export function SiteNavbar() {
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
 
-  // Auto-focus the mobile input when the search row opens
+  // Focus input when expanded on mobile
   React.useEffect(() => {
-    if (mobileSearchOpen) {
-      setTimeout(() => mobileInputRef.current?.focus(), 50)
+    if (mobileExpanded) {
+      setTimeout(() => inputRef.current?.focus(), 30)
     }
-  }, [mobileSearchOpen])
+  }, [mobileExpanded])
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
     const q = searchQuery.trim()
     if (q) window.location.href = `/products?q=${encodeURIComponent(q)}`
+  }
+
+  // On mobile: clicking the icon button expands; if already expanded it submits
+  const handleIconClick = (e: React.MouseEvent) => {
+    if (window.innerWidth < 640) {
+      if (!mobileExpanded) {
+        e.preventDefault()
+        setMobileExpanded(true)
+      }
+      // if expanded, let the form submit naturally
+    }
   }
 
   return (
@@ -76,40 +87,58 @@ export function SiteNavbar() {
             Techland
           </Link>
 
-          {/* Search bar — hidden on mobile, visible sm+ */}
-          <form onSubmit={handleSearch} className="mx-auto hidden w-full max-w-2xl flex-1 sm:flex">
-            <div className="flex h-11 w-full overflow-hidden rounded-[10px] border-2 border-[color:var(--tech-cta)] bg-background transition-shadow focus-within:shadow-[0_0_0_3px_rgba(255,138,0,0.15)]">
-              <input
-                type="search"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="h-full flex-1 bg-transparent px-4 text-sm outline-none placeholder:text-muted-foreground"
-                placeholder="Search products, brands and categories…"
-                aria-label="Search products"
-              />
-              <button
-                type="submit"
-                className="flex h-full items-center justify-center bg-[color:var(--tech-cta)] px-4 transition-opacity hover:opacity-90"
-                aria-label="Search"
-              >
-                <MagnifyingGlassIcon className="size-5 text-[color:var(--tech-cta-foreground)]" aria-hidden />
-              </button>
-            </div>
+          {/*
+            Unified search form.
+            • sm+  : always fully expanded (flex-1, full width)
+            • mobile collapsed: form shrinks to just the icon button (w-11, overflow hidden)
+            • mobile expanded : full width slides in via transition
+          */}
+          <form
+            onSubmit={handleSearch}
+            className={cn(
+              // shared
+              "flex overflow-hidden rounded-[10px] border-2 border-[color:var(--tech-cta)] bg-background transition-all duration-300 ease-in-out focus-within:shadow-[0_0_0_3px_rgba(255,138,0,0.15)]",
+              // desktop: always flex-1 full width
+              "sm:mx-auto sm:w-full sm:max-w-2xl sm:flex-1",
+              // mobile: collapsed = fixed small width, expanded = grow to fill
+              mobileExpanded
+                ? "ml-auto w-full flex-1"
+                : "ml-auto h-11 w-11 sm:h-auto sm:w-auto"
+            )}
+            style={{ height: "2.75rem" }}
+          >
+            {/* Input — hidden on mobile when collapsed */}
+            <input
+              ref={inputRef}
+              type="search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onBlur={() => {
+                // collapse on mobile if input is empty and blurred
+                if (!searchQuery.trim()) setMobileExpanded(false)
+              }}
+              className={cn(
+                "h-full bg-transparent px-4 text-sm outline-none placeholder:text-muted-foreground transition-all duration-300",
+                mobileExpanded ? "flex-1 opacity-100 w-full" : "w-0 flex-none opacity-0 sm:flex-1 sm:opacity-100 sm:w-auto px-0 sm:px-4"
+              )}
+              placeholder="Search products, brands and categories…"
+              aria-label="Search products"
+              tabIndex={mobileExpanded ? 0 : -1}
+            />
+
+            {/* Icon button — always visible, acts as expand trigger on mobile */}
+            <button
+              type="submit"
+              onClick={handleIconClick}
+              className="flex h-full w-11 shrink-0 items-center justify-center bg-[color:var(--tech-cta)] transition-opacity hover:opacity-90"
+              aria-label={mobileExpanded ? "Search" : "Expand search"}
+            >
+              <MagnifyingGlassIcon className="size-5 text-[color:var(--tech-cta-foreground)]" aria-hidden />
+            </button>
           </form>
 
           {/* Right icons */}
-          <div className="ml-auto flex shrink-0 items-center gap-2 sm:ml-0">
-            {/* Mobile-only: search icon toggle */}
-            <button
-              type="button"
-              onClick={() => setMobileSearchOpen((v) => !v)}
-              className="flex h-10 w-10 items-center justify-center rounded-sm border border-border hover:bg-muted sm:hidden"
-              aria-label="Toggle search"
-              aria-expanded={mobileSearchOpen}
-            >
-              <MagnifyingGlassIcon className="size-5" aria-hidden />
-            </button>
-
+          <div className={cn("flex shrink-0 items-center gap-2", mobileExpanded ? "hidden sm:flex" : "flex")}>
             <ThemeToggle className="h-10 w-10 rounded-sm" />
 
             <Link
@@ -126,33 +155,6 @@ export function SiteNavbar() {
             </Link>
           </div>
         </div>
-
-        {/* Mobile expanded search row — slides in below the top bar */}
-        {mobileSearchOpen && (
-          <form
-            onSubmit={(e) => { handleSearch(e); setMobileSearchOpen(false) }}
-            className="flex sm:hidden px-4 pb-3"
-          >
-            <div className="flex h-11 w-full overflow-hidden rounded-[10px] border-2 border-[color:var(--tech-cta)] bg-background transition-shadow focus-within:shadow-[0_0_0_3px_rgba(255,138,0,0.15)]">
-              <input
-                ref={mobileInputRef}
-                type="search"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="h-full flex-1 bg-transparent px-4 text-sm outline-none placeholder:text-muted-foreground"
-                placeholder="Search products…"
-                aria-label="Search products"
-              />
-              <button
-                type="submit"
-                className="flex h-full items-center justify-center bg-[color:var(--tech-cta)] px-4 transition-opacity hover:opacity-90"
-                aria-label="Search"
-              >
-                <MagnifyingGlassIcon className="size-5 text-[color:var(--tech-cta-foreground)]" aria-hidden />
-              </button>
-            </div>
-          </form>
-        )}
       </div>
 
       {/* ── Tier 2: Category pill nav (Centered) ── */}
