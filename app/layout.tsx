@@ -18,9 +18,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://techland-rho-vercel-app.vercel.app"),
   title: "Techland — Power. Performance. Precision.",
   description:
     "Techland is a premium electronics store for laptops, desktops, accessories, and high-performance gadgets.",
+  openGraph: {
+    title: "Techland — Power. Performance. Precision.",
+    description: "Premium electronics curated for performance and clarity.",
+    url: "https://techland-rho.vercel.app/",
+    siteName: "Techland",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Techland Premium Electronics",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Techland — Power. Performance. Precision.",
+    description: "Premium electronics curated for performance and clarity.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

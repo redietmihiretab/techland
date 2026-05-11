@@ -68,7 +68,7 @@ export function ProductCard({
                 alt={img.alt}
                 fill
                 priority={priority && idx === 0}
-                sizes="(max-width: 768px) 50vw, 25vw"
+                sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 22vw"
                 className={
                   "object-cover transition-all duration-500 transform-gpu group-hover:scale-[1.04] " +
                   (idx === activeIndex ? "opacity-100" : "opacity-0")

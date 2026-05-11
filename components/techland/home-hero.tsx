@@ -116,7 +116,7 @@ export function HomeHero() {
             </Reveal>
 
             {/* Right: two standard product cards */}
-            <div className="grid items-stretch grid-cols-2 gap-5">
+            <div className="grid items-stretch grid-cols-1 gap-5 sm:grid-cols-2">
               {products.slice(0, 2).map((p, idx) => (
                 <Reveal key={p.id} delay={0.1 + idx * 0.05} className="h-full">
                   <ProductCard product={p} priority />

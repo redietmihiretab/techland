@@ -4,7 +4,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import * as React from "react"
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline"
-import { ShoppingCartIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline"
+import { ShoppingCartIcon, MapPinIcon, PhoneIcon, UserIcon } from "@heroicons/react/24/outline"
 
 import { ThemeToggle } from "@/components/techland/theme-toggle"
 import { useCart } from "@/components/cart-provider"
@@ -140,6 +140,14 @@ export function SiteNavbar() {
           {/* Right icons */}
           <div className={cn("flex shrink-0 items-center gap-2", mobileExpanded ? "hidden sm:flex" : "flex")}>
             <ThemeToggle className="h-10 w-10 rounded-sm" />
+
+            <Link
+              href="/account"
+              className="flex h-10 w-10 items-center justify-center rounded-sm border border-border hover:bg-muted"
+              aria-label="My Account"
+            >
+              <UserIcon className="size-5" aria-hidden />
+            </Link>
 
             <Link
               href="/cart"
